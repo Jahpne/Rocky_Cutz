@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  justify-content: center;
+ margin: 0;
+ padding: 0;
+ width: fit-content;
+ 
+}
+@media  screen  (max-width: 768px) {
+.App{
+  max-width: 650px;
+}
+}
+

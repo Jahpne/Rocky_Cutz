@@ -1,0 +1,47 @@
+body{
+  background: linear-gradient(to bottom, #edecec, #3a3a3a);
+  background-repeat: no-repeat;
+ 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  min-height: 100vh;
+}
+a{color: white; text-decoration: none; transition: all 0.3s;}
+a:hover{color:black; transform: scale(1.1); display: inline-block;}
+@media(max-width:480px){
+  h1{
+    font-size:2.5rem;
+  }
+  h2{font-size: 2rem;}
+  p, a {font-size: 1.1rem;}
+  .glass-card{padding: 20px}
+}
+
+@media(max-width:768px){
+  h1{
+    font-size:3rem;
+  }
+  h2{font-size: 2.5rem;}
+  p, a {font-size: 1.3rem;}
+  .glass-card{padding: 25px border-radius:20px}
+}
+.gradient-bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+opacity: 0.7;
+z-index: 1;
+}
