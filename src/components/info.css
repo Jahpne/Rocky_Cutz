@@ -25,7 +25,7 @@ a:hover{color:black; transform: scale(1.1); display: inline-block;}
   }
   h2{font-size: 2rem;}
   p, a {font-size: 1.1rem;}
-  .glass-card{padding: 20px}
+  .glass-card{padding: 20px;}
 }
 
 @media(max-width:768px){
@@ -34,7 +34,8 @@ a:hover{color:black; transform: scale(1.1); display: inline-block;}
   }
   h2{font-size: 2.5rem;}
   p, a {font-size: 1.3rem;}
-  .glass-card{padding: 25px border-radius:20px}
+  .glass-card{padding: 25px;
+border-radius:20px;}
 }
 .gradient-bg{
   position: fixed;
